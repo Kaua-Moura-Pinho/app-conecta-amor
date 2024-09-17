@@ -2,7 +2,7 @@ import type { CapacitorConfig } from '@capacitor/cli';
 
 const config: CapacitorConfig = {
   appId: 'io.ionic.starter',
-  appName: 'app-conecta-amor',
+  appName: 'donation-ha-mobile-v2',
   webDir: 'www'
 };
 
