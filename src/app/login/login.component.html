@@ -1,3 +1,24 @@
-<p>
-  login works!
-</p>
+<ion-content id="body-custom" [fullscreen]="true">
+  <ion-header collapse="condense">
+    <ion-toolbar>
+    </ion-toolbar>
+  </ion-header>
+  <div id="logo">
+    <img src="../../assets/logo.png" alt="LOGO">
+  </div>
+  <div id="login">
+    <p>Fazer login</p>
+  </div>
+  <div id="inputs">
+    <form action="">
+        <ion-input placeholder="E-mail" class="custom"></ion-input>
+        <ion-input placeholder="Senha" type="password" class="custom"></ion-input>
+        <button type="" class="btn">Entrar</button>
+    </form>
+  </div>
+  <div id="link-cadastro">
+    <p>
+      Ainda não possui login? <a href="">Clique aqui e faça seu cadastro!</a>
+  </p>
+</div>
+</ion-content>

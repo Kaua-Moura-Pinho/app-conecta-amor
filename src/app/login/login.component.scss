@@ -1,0 +1,64 @@
+#body-custom::part(scroll) {
+    background-color: #ECF2F7;
+  }
+
+img {
+    width: 100px;
+    height: auto;
+}
+
+div {
+    display: flex;
+    justify-content: center;
+    margin-top: 5%;
+}
+
+#login {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 25px;
+    color: #1475C4;
+    margin-top: 5%;
+}
+
+ion-input.custom {
+    background-color: lightgray;
+    border-radius: 0.9rem;
+    margin-bottom: 5%;
+
+    --padding-bottom: 10px;
+    --padding-end: 10px;
+    --padding-start: 10px;
+    --padding-top: 10px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.btn {
+    background-color: #279EFF;
+    color: white;
+    width: 100px;
+    height: 35px;
+    border-radius: 0.3rem;
+    font-family: "Poppins", sans-serif;
+
+    --padding-bottom: 5px;
+    --padding-end: 5px;
+    --padding-start: 5px;
+    --padding-top: 5px;
+}
+
+#link-cadastro a{
+    text-decoration: none;
+    color: #1475C4;
+}
+
+#link-cadastro p{
+    font-size: 10px;
+    font-family: "Roboto";
+}
